@@ -22,7 +22,13 @@ export default function Header() {
         localStorage.setItem("theme", next ? "dark" : "light");
     };
 
-    const navItems = ["Beranda", "Layanan", "Perjalanan", "Harga", "FAQ"];
+    const navItems = [
+        { label: "Beranda", href: "/" },
+        { label: "Layanan", href: "#layanan" },
+        { label: "Perjalanan", href: "#perjalanan" },
+        { label: "Harga", href: "#harga" },
+        { label: "FAQ", href: "#faq" },
+    ];
 
     return (
         <header className="fixed top-0 left-0 right-0 z-50 border-b border-gold/10 bg-background/80 backdrop-blur-xl">
@@ -37,11 +43,11 @@ export default function Header() {
                 <nav className="hidden items-center gap-8 md:flex">
                     {navItems.map((item) => (
 
-                        <a key={item}
-                            href={`#${item.toLowerCase()}`}
+                        <a key={item.label}
+                            href={item.href}
                             className="text-sm font-medium text-muted-foreground transition-colors hover:text-gold"
                         >
-                            {item}
+                            {item.label}
                         </a>
                     ))}
                 </nav>
