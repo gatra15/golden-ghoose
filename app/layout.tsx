@@ -1,10 +1,10 @@
 // app/layout.tsx
 import { Playfair_Display, Inter, Geist } from 'next/font/google'
-import { Provider } from './provider'
+import { Providers } from './providers'
 import '../styles/globals.css'
 import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+const geist = Geist({ subsets: ['latin'], variable: '--font-sans' });
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={cn(playfair.variable, inter.variable, "font-sans", geist.variable)}>
       <body>
-        <Provider>{children}</Provider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )
