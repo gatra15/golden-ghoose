@@ -43,11 +43,11 @@ export default function Header() {
                 <nav className="hidden items-center gap-8 md:flex">
                     {navItems.map((item) => (
 
-                        <a key={item.label}
-                            href={item.href}
+                        <a key={item?.label}
+                            href={item?.href}
                             className="text-sm font-medium text-muted-foreground transition-colors hover:text-gold"
                         >
-                            {item.label}
+                            {item?.label}
                         </a>
                     ))}
                 </nav>
@@ -94,12 +94,12 @@ export default function Header() {
                     <div className="flex flex-col gap-4 px-6 py-6">
                         {navItems.map((item) => (
 
-                            <a key={item}
-                                href={`#${item.toLowerCase()}`}
+                            <a key={item.label}
+                                href={item.href}
                                 className="text-sm font-medium text-muted-foreground hover:text-gold"
                                 onClick={() => setIsOpen(false)}
                             >
-                                {item}
+                                {item.label}
                             </a>
                         ))}
 
