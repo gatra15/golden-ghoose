@@ -43,7 +43,7 @@ function WhyChooseSection() {
                         Mengapa Kami
                     </span>
                     <h2 className="mb-4 font-heading text-3xl font-bold md:text-5xl">
-                        Kenapa Pilih <span className="text-gradient-gold">Golden Ghoose</span>?
+                        Kenapa Pilih <span className="text-gradient-gold">Golden Goose</span>?
                     </h2>
                     <p className="text-muted-foreground">
                         Kami menggabungkan teknologi terkini dengan keahlian investasi untuk memberikan pengalaman terbaik.

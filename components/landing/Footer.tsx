@@ -7,7 +7,7 @@ export default function Footer() {
                         <div className="mb-4 flex items-center gap-2">
                             <div className="h-8 w-8 rounded-full bg-gradient-gold" />
                             <span className="font-heading text-xl font-bold text-gradient-gold">
-                                Golden Ghoose
+                                Golden Goose
                             </span>
                         </div>
                         <p className="text-sm leading-relaxed text-muted-foreground">
@@ -50,7 +50,7 @@ export default function Footer() {
                             Kontak
                         </h4>
                         <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li>info@goldenghoose.com</li>
+                            <li>info@goldengoose.com</li>
                             <li>+62 21 1234 5678</li>
                             <li>Jakarta, Indonesia</li>
                         </ul>
@@ -60,7 +60,7 @@ export default function Footer() {
                 <div className="divider-gold mt-12 mb-8" />
 
                 <p className="text-center text-xs text-muted-foreground">
-                    © {new Date().getFullYear()} Golden Ghoose Trade & Invest. All rights reserved.
+                    © {new Date().getFullYear()} Golden Goose Trade & Invest. All rights reserved.
                 </p>
             </div>
         </footer>

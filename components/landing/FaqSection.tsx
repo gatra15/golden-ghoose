@@ -7,8 +7,8 @@ import {
 
 const faqs = [
     {
-        q: "Apa itu Golden Ghoose Trade & Invest?",
-        a: "Golden Ghoose adalah platform investasi saham yang menyediakan rekomendasi, analisis, dan tools trading untuk membantu Anda mencapai tujuan finansial.",
+        q: "Apa itu Golden Goose Trade & Invest?",
+        a: "Golden Goose adalah platform investasi saham yang menyediakan rekomendasi, analisis, dan tools trading untuk membantu Anda mencapai tujuan finansial.",
     },
     {
         q: "Apakah dana saya aman?",

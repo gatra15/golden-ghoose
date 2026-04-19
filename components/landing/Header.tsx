@@ -36,7 +36,7 @@ export default function Header() {
                 <div className="flex items-center gap-2">
                     <div className="h-8 w-8 rounded-full bg-gradient-gold" />
                     <span className="font-heading text-xl font-bold text-gradient-gold">
-                        Golden Ghoose
+                        Golden Goose
                     </span>
                 </div>
 

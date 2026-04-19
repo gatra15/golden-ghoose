@@ -97,7 +97,7 @@ function PricelistSection() {
                             </ul>
                             <a
                                 href="#cta"
-                                className={`block rounded-md py-3 text-center text-sm font-semibold transition-all ${plan.featured
+                                className={`block rounded-md py-3 text-center text-sm font-semibold transition-all hover:scale-105 hover:shadow-gold-bottom-lg active:scale-100 ${plan.featured
                                     ? "bg-gradient-gold text-primary-foreground shadow-gold hover:opacity-90"
                                     : "border border-gold/30 text-gold hover:border-gold/60 hover:bg-gold/5"
                                     }`}

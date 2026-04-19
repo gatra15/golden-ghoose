@@ -8,6 +8,7 @@ import PricelistSection from "@/components/landing/PriceListSection";
 import CtaSection from "@/components/landing/CtaSection";
 import FaqSection from "@/components/landing/FaqSection";
 import Footer from "@/components/landing/Footer";
+import WhatsappButton from "@/components/ui/WhatsappButton";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
       <CtaSection />
       <FaqSection />
       <Footer />
+      <WhatsappButton phoneNumber="6285xxxxxxxxx" message="Hai kak, aku mau ikutan dong.." />
     </div>
   );
 };

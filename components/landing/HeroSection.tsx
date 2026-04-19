@@ -25,7 +25,7 @@ export default function HeroSection() {
                     </h1>
 
                     <p className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-                        Golden Ghoose Trade & Invest hadir untuk membimbing Anda meraih
+                        Golden Goose Trade & Invest hadir untuk membimbing Anda meraih
                         kebebasan finansial melalui investasi saham yang terukur, aman, dan
                         menguntungkan.
                     </p>

@@ -2,7 +2,7 @@ const steps = [
     {
         year: "2019",
         title: "Awal Mula",
-        desc: "Golden Ghoose didirikan oleh sekelompok profesional keuangan dengan visi membuka akses investasi premium untuk semua.",
+        desc: "Golden Goose didirikan oleh sekelompok profesional keuangan dengan visi membuka akses investasi premium untuk semua.",
     },
     {
         year: "2020",
@@ -32,7 +32,7 @@ function JourneySection() {
                     </span>
                     <h2 className="mb-4 font-heading text-3xl font-bold md:text-5xl">
                         Perjalanan Investasi{" "}
-                        <span className="text-gradient-gold">Golden Ghoose</span>
+                        <span className="text-gradient-gold">Golden Goose</span>
                     </h2>
                 </div>
 

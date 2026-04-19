@@ -14,7 +14,7 @@ export default function CtaSection() {
                             Siap Memulai <span className="text-gradient-gold">Perjalanan Investasi</span> Anda?
                         </h2>
                         <p className="mx-auto mb-10 max-w-xl text-muted-foreground">
-                            Bergabung dengan ribuan investor cerdas yang telah mempercayakan portofolio mereka kepada Golden Ghoose.
+                            Bergabung dengan ribuan investor cerdas yang telah mempercayakan portofolio mereka kepada Golden Goose.
                         </p>
                         <a
                             href="#"

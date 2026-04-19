@@ -1,20 +1,21 @@
 import { Star } from "lucide-react";
+import StarIcon from "../icons/StarIcon";
 
 const testimonials = [
     {
         name: "Andi Wijaya",
         role: "Pengusaha",
-        text: "Golden Ghoose mengubah cara saya berinvestasi. Dalam 2 tahun, portofolio saya tumbuh lebih dari 35%. Sangat merekomendasikan!",
+        text: "Golden Goose mengubah cara saya berinvestasi. Dalam 2 tahun, portofolio saya tumbuh lebih dari 35%. Sangat merekomendasikan!",
     },
     {
         name: "Sari Dewi",
         role: "Dokter Spesialis",
-        text: "Sebagai profesional yang sibuk, saya butuh platform yang mudah dan terpercaya. Golden Ghoose adalah jawabannya.",
+        text: "Sebagai profesional yang sibuk, saya butuh platform yang mudah dan terpercaya. Golden Goose adalah jawabannya.",
     },
     {
         name: "Budi Santoso",
         role: "Pensiunan BUMN",
-        text: "Setelah pensiun, saya ingin dana saya bekerja. Tim Golden Ghoose membantu saya memilih saham yang tepat untuk passive income.",
+        text: "Setelah pensiun, saya ingin dana saya bekerja. Tim Golden Goose membantu saya memilih saham yang tepat untuk passive income.",
     },
 ];
 
@@ -40,10 +41,7 @@ function TestimonialsSection() {
                         >
                             <div className="mb-4 flex gap-1">
                                 {Array.from({ length: 5 }).map((_, i) => (
-                                    <Star
-                                        key={i}
-                                        className="h-4 w-4 fill-gold text-gold"
-                                    />
+                                    <StarIcon key={i} size={32} />
                                 ))}
                             </div>
                             <p className="mb-6 text-sm italic leading-relaxed text-muted-foreground">
